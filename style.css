@@ -1,0 +1,25 @@
+body {
+  font-family: 'Cinzel', serif;
+  font-family: 'Fredoka', sans-serif;
+  background-position: center;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+.btn-success:hover {
+  border-color: green;
+}
+
+canvas {
+   animation-name: filter-app;
+   animation-iteration-count: infinite;
+   animation-duration: 2s;
+}
+
+@keyframes filter-app {
+  from{box-shadow: 1px 1px 38px red;}
+  to{box-shadpw: 1px 1px 38px orange;}
+}
